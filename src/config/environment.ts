@@ -1,4 +1,4 @@
 const environment = {
-    API_URL : process.env.NEXT_PUBLIC_API_URL || "http://localhost:3004/api",
+    API_URL : process.env.NEXT_PUBLIC_API_URL,
 }
 export default environment;

@@ -1,6 +1,6 @@
 import { Button } from "@heroui/react";
 import { Geist, Geist_Mono } from "next/font/google";
-import PageHead from '../components/commons/pagehead/index';
+import PageHead from '../components/commons/PageHead';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
