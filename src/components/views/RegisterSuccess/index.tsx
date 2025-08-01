@@ -1,7 +1,6 @@
 import { Button } from '@heroui/react'
 import Image from 'next/image'
 import React from 'react'
-import router from '../../../../../back-end-acara/src/routes/api';
 import { useRouter } from 'next/router';
 
 
