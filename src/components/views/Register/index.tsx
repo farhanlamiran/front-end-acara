@@ -1,11 +1,10 @@
-import { Button, Card, CardBody, Input, Spinner, user } from "@heroui/react"
+import { Button, Card, CardBody, Input, Spinner } from "@heroui/react"
 import Image from "next/image"
 import Link from "next/link"
 import useRegister from "./useRegister";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Controller } from "react-hook-form";
 import { cn } from "@/utils/cn";
-import { object } from "yup";
 
 const Register = () => {
   const { visiblePasword, handleVisiblePassword, control, handleSubmit, handleRegister, isPendingRegister, errors } = useRegister();
